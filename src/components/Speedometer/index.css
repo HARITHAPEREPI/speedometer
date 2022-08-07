@@ -1,0 +1,103 @@
+.speedometer-app-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 30px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+}
+
+.speedometer-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.speedometer-image {
+  height: 150px;
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .speedometer-image {
+    height: 300px;
+    width: 700px;
+  }
+}
+
+.speed-very {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .speed-very {
+    font-size: 50px;
+  }
+}
+
+.description {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+}
+
+.buttons-container {
+  text-align: center;
+}
+
+.accelerate-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  margin: 20px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.break-button {
+  color: #ffffff;
+  background-color: transparent;
+  margin: 20px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid;
+  border-radius: 10px;
+}
